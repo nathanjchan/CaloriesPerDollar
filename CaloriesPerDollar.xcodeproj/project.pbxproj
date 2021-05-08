@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		D8E6BC6926468E670013F7AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E6BC6826468E670013F7AF /* AppDelegate.swift */; };
 		D8E6BC6B26468E670013F7AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E6BC6A26468E670013F7AF /* SceneDelegate.swift */; };
-		D8E6BC6D26468E670013F7AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E6BC6C26468E670013F7AF /* ViewController.swift */; };
+		D8E6BC6D26468E670013F7AF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E6BC6C26468E670013F7AF /* HomeViewController.swift */; };
 		D8E6BC7026468E670013F7AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8E6BC6E26468E670013F7AF /* Main.storyboard */; };
 		D8E6BC7226468E680013F7AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8E6BC7126468E680013F7AF /* Assets.xcassets */; };
 		D8E6BC7526468E680013F7AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8E6BC7326468E680013F7AF /* LaunchScreen.storyboard */; };
 		D8E6BC8026468E680013F7AF /* CaloriesPerDollarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E6BC7F26468E680013F7AF /* CaloriesPerDollarTests.swift */; };
 		D8E6BC8B26468E680013F7AF /* CaloriesPerDollarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E6BC8A26468E680013F7AF /* CaloriesPerDollarUITests.swift */; };
+		D8E6BC99264694430013F7AF /* FoodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E6BC98264694430013F7AF /* FoodsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,7 @@
 		D8E6BC6526468E670013F7AF /* CaloriesPerDollar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaloriesPerDollar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8E6BC6826468E670013F7AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8E6BC6A26468E670013F7AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D8E6BC6C26468E670013F7AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D8E6BC6C26468E670013F7AF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D8E6BC6F26468E670013F7AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8E6BC7126468E680013F7AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8E6BC7426468E680013F7AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		D8E6BC8626468E680013F7AF /* CaloriesPerDollarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaloriesPerDollarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8E6BC8A26468E680013F7AF /* CaloriesPerDollarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesPerDollarUITests.swift; sourceTree = "<group>"; };
 		D8E6BC8C26468E680013F7AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8E6BC98264694430013F7AF /* FoodsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +103,9 @@
 			children = (
 				D8E6BC6826468E670013F7AF /* AppDelegate.swift */,
 				D8E6BC6A26468E670013F7AF /* SceneDelegate.swift */,
-				D8E6BC6C26468E670013F7AF /* ViewController.swift */,
+				D8E6BC6C26468E670013F7AF /* HomeViewController.swift */,
 				D8E6BC6E26468E670013F7AF /* Main.storyboard */,
+				D8E6BC98264694430013F7AF /* FoodsViewController.swift */,
 				D8E6BC7126468E680013F7AF /* Assets.xcassets */,
 				D8E6BC7326468E680013F7AF /* LaunchScreen.storyboard */,
 				D8E6BC7626468E680013F7AF /* Info.plist */,
@@ -258,8 +261,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8E6BC6D26468E670013F7AF /* ViewController.swift in Sources */,
+				D8E6BC6D26468E670013F7AF /* HomeViewController.swift in Sources */,
 				D8E6BC6926468E670013F7AF /* AppDelegate.swift in Sources */,
+				D8E6BC99264694430013F7AF /* FoodsViewController.swift in Sources */,
 				D8E6BC6B26468E670013F7AF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
