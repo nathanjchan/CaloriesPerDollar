@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8E6BC6926468E670013F7AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E6BC6826468E670013F7AF /* AppDelegate.swift */; };
+		D8E6BC6B26468E670013F7AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E6BC6A26468E670013F7AF /* SceneDelegate.swift */; };
+		D8E6BC6D26468E670013F7AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E6BC6C26468E670013F7AF /* ViewController.swift */; };
+		D8E6BC7026468E670013F7AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8E6BC6E26468E670013F7AF /* Main.storyboard */; };
+		D8E6BC7226468E680013F7AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8E6BC7126468E680013F7AF /* Assets.xcassets */; };
+		D8E6BC7526468E680013F7AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8E6BC7326468E680013F7AF /* LaunchScreen.storyboard */; };
+		D8E6BC8026468E680013F7AF /* CaloriesPerDollarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E6BC7F26468E680013F7AF /* CaloriesPerDollarTests.swift */; };
+		D8E6BC8B26468E680013F7AF /* CaloriesPerDollarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E6BC8A26468E680013F7AF /* CaloriesPerDollarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8E6BC7C26468E680013F7AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8E6BC5D26468E670013F7AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8E6BC6426468E670013F7AF;
+			remoteInfo = CaloriesPerDollar;
+		};
+		D8E6BC8726468E680013F7AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8E6BC5D26468E670013F7AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8E6BC6426468E670013F7AF;
+			remoteInfo = CaloriesPerDollar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D8E6BC6526468E670013F7AF /* CaloriesPerDollar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaloriesPerDollar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8E6BC6826468E670013F7AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8E6BC6A26468E670013F7AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D8E6BC6C26468E670013F7AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D8E6BC6F26468E670013F7AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8E6BC7126468E680013F7AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8E6BC7426468E680013F7AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8E6BC7626468E680013F7AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8E6BC7B26468E680013F7AF /* CaloriesPerDollarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaloriesPerDollarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8E6BC7F26468E680013F7AF /* CaloriesPerDollarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesPerDollarTests.swift; sourceTree = "<group>"; };
+		D8E6BC8126468E680013F7AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8E6BC8626468E680013F7AF /* CaloriesPerDollarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaloriesPerDollarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8E6BC8A26468E680013F7AF /* CaloriesPerDollarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesPerDollarUITests.swift; sourceTree = "<group>"; };
+		D8E6BC8C26468E680013F7AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8E6BC6226468E670013F7AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8E6BC7826468E680013F7AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8E6BC8326468E680013F7AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8E6BC5C26468E670013F7AF = {
+			isa = PBXGroup;
+			children = (
+				D8E6BC6726468E670013F7AF /* CaloriesPerDollar */,
+				D8E6BC7E26468E680013F7AF /* CaloriesPerDollarTests */,
+				D8E6BC8926468E680013F7AF /* CaloriesPerDollarUITests */,
+				D8E6BC6626468E670013F7AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8E6BC6626468E670013F7AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8E6BC6526468E670013F7AF /* CaloriesPerDollar.app */,
+				D8E6BC7B26468E680013F7AF /* CaloriesPerDollarTests.xctest */,
+				D8E6BC8626468E680013F7AF /* CaloriesPerDollarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8E6BC6726468E670013F7AF /* CaloriesPerDollar */ = {
+			isa = PBXGroup;
+			children = (
+				D8E6BC6826468E670013F7AF /* AppDelegate.swift */,
+				D8E6BC6A26468E670013F7AF /* SceneDelegate.swift */,
+				D8E6BC6C26468E670013F7AF /* ViewController.swift */,
+				D8E6BC6E26468E670013F7AF /* Main.storyboard */,
+				D8E6BC7126468E680013F7AF /* Assets.xcassets */,
+				D8E6BC7326468E680013F7AF /* LaunchScreen.storyboard */,
+				D8E6BC7626468E680013F7AF /* Info.plist */,
+			);
+			path = CaloriesPerDollar;
+			sourceTree = "<group>";
+		};
+		D8E6BC7E26468E680013F7AF /* CaloriesPerDollarTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8E6BC7F26468E680013F7AF /* CaloriesPerDollarTests.swift */,
+				D8E6BC8126468E680013F7AF /* Info.plist */,
+			);
+			path = CaloriesPerDollarTests;
+			sourceTree = "<group>";
+		};
+		D8E6BC8926468E680013F7AF /* CaloriesPerDollarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D8E6BC8A26468E680013F7AF /* CaloriesPerDollarUITests.swift */,
+				D8E6BC8C26468E680013F7AF /* Info.plist */,
+			);
+			path = CaloriesPerDollarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8E6BC6426468E670013F7AF /* CaloriesPerDollar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8E6BC8F26468E680013F7AF /* Build configuration list for PBXNativeTarget "CaloriesPerDollar" */;
+			buildPhases = (
+				D8E6BC6126468E670013F7AF /* Sources */,
+				D8E6BC6226468E670013F7AF /* Frameworks */,
+				D8E6BC6326468E670013F7AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CaloriesPerDollar;
+			productName = CaloriesPerDollar;
+			productReference = D8E6BC6526468E670013F7AF /* CaloriesPerDollar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8E6BC7A26468E680013F7AF /* CaloriesPerDollarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8E6BC9226468E680013F7AF /* Build configuration list for PBXNativeTarget "CaloriesPerDollarTests" */;
+			buildPhases = (
+				D8E6BC7726468E680013F7AF /* Sources */,
+				D8E6BC7826468E680013F7AF /* Frameworks */,
+				D8E6BC7926468E680013F7AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8E6BC7D26468E680013F7AF /* PBXTargetDependency */,
+			);
+			name = CaloriesPerDollarTests;
+			productName = CaloriesPerDollarTests;
+			productReference = D8E6BC7B26468E680013F7AF /* CaloriesPerDollarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D8E6BC8526468E680013F7AF /* CaloriesPerDollarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8E6BC9526468E680013F7AF /* Build configuration list for PBXNativeTarget "CaloriesPerDollarUITests" */;
+			buildPhases = (
+				D8E6BC8226468E680013F7AF /* Sources */,
+				D8E6BC8326468E680013F7AF /* Frameworks */,
+				D8E6BC8426468E680013F7AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8E6BC8826468E680013F7AF /* PBXTargetDependency */,
+			);
+			name = CaloriesPerDollarUITests;
+			productName = CaloriesPerDollarUITests;
+			productReference = D8E6BC8626468E680013F7AF /* CaloriesPerDollarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8E6BC5D26468E670013F7AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D8E6BC6426468E670013F7AF = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					D8E6BC7A26468E680013F7AF = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = D8E6BC6426468E670013F7AF;
+					};
+					D8E6BC8526468E680013F7AF = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = D8E6BC6426468E670013F7AF;
+					};
+				};
+			};
+			buildConfigurationList = D8E6BC6026468E670013F7AF /* Build configuration list for PBXProject "CaloriesPerDollar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8E6BC5C26468E670013F7AF;
+			productRefGroup = D8E6BC6626468E670013F7AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8E6BC6426468E670013F7AF /* CaloriesPerDollar */,
+				D8E6BC7A26468E680013F7AF /* CaloriesPerDollarTests */,
+				D8E6BC8526468E680013F7AF /* CaloriesPerDollarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8E6BC6326468E670013F7AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8E6BC7526468E680013F7AF /* LaunchScreen.storyboard in Resources */,
+				D8E6BC7226468E680013F7AF /* Assets.xcassets in Resources */,
+				D8E6BC7026468E670013F7AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8E6BC7926468E680013F7AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8E6BC8426468E680013F7AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8E6BC6126468E670013F7AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8E6BC6D26468E670013F7AF /* ViewController.swift in Sources */,
+				D8E6BC6926468E670013F7AF /* AppDelegate.swift in Sources */,
+				D8E6BC6B26468E670013F7AF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8E6BC7726468E680013F7AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8E6BC8026468E680013F7AF /* CaloriesPerDollarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8E6BC8226468E680013F7AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8E6BC8B26468E680013F7AF /* CaloriesPerDollarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8E6BC7D26468E680013F7AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8E6BC6426468E670013F7AF /* CaloriesPerDollar */;
+			targetProxy = D8E6BC7C26468E680013F7AF /* PBXContainerItemProxy */;
+		};
+		D8E6BC8826468E680013F7AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8E6BC6426468E670013F7AF /* CaloriesPerDollar */;
+			targetProxy = D8E6BC8726468E680013F7AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8E6BC6E26468E670013F7AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8E6BC6F26468E670013F7AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8E6BC7326468E680013F7AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8E6BC7426468E680013F7AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8E6BC8D26468E680013F7AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D8E6BC8E26468E680013F7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8E6BC9026468E680013F7AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QQU7STGS9W;
+				INFOPLIST_FILE = CaloriesPerDollar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathanjchan.CaloriesPerDollar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8E6BC9126468E680013F7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QQU7STGS9W;
+				INFOPLIST_FILE = CaloriesPerDollar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathanjchan.CaloriesPerDollar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D8E6BC9326468E680013F7AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QQU7STGS9W;
+				INFOPLIST_FILE = CaloriesPerDollarTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathanjchan.CaloriesPerDollarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaloriesPerDollar.app/CaloriesPerDollar";
+			};
+			name = Debug;
+		};
+		D8E6BC9426468E680013F7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QQU7STGS9W;
+				INFOPLIST_FILE = CaloriesPerDollarTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathanjchan.CaloriesPerDollarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaloriesPerDollar.app/CaloriesPerDollar";
+			};
+			name = Release;
+		};
+		D8E6BC9626468E680013F7AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QQU7STGS9W;
+				INFOPLIST_FILE = CaloriesPerDollarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathanjchan.CaloriesPerDollarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CaloriesPerDollar;
+			};
+			name = Debug;
+		};
+		D8E6BC9726468E680013F7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QQU7STGS9W;
+				INFOPLIST_FILE = CaloriesPerDollarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathanjchan.CaloriesPerDollarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CaloriesPerDollar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8E6BC6026468E670013F7AF /* Build configuration list for PBXProject "CaloriesPerDollar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8E6BC8D26468E680013F7AF /* Debug */,
+				D8E6BC8E26468E680013F7AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8E6BC8F26468E680013F7AF /* Build configuration list for PBXNativeTarget "CaloriesPerDollar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8E6BC9026468E680013F7AF /* Debug */,
+				D8E6BC9126468E680013F7AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8E6BC9226468E680013F7AF /* Build configuration list for PBXNativeTarget "CaloriesPerDollarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8E6BC9326468E680013F7AF /* Debug */,
+				D8E6BC9426468E680013F7AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8E6BC9526468E680013F7AF /* Build configuration list for PBXNativeTarget "CaloriesPerDollarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8E6BC9626468E680013F7AF /* Debug */,
+				D8E6BC9726468E680013F7AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8E6BC5D26468E670013F7AF /* Project object */;
+}
